@@ -3,7 +3,7 @@ services:
     build: .
     container_name: red-mapa
     ports:
-      - "8088:80"
+      - "4090:80"
     volumes:
       - red-mapa-datos:/data
     restart: unless-stopped
