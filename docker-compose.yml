@@ -1,0 +1,7 @@
+services:
+  red-mapa:
+    build: .
+    container_name: red-mapa
+    ports:
+      - "8088:80"
+    restart: unless-stopped
